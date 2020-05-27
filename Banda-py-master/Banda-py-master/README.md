@@ -29,3 +29,6 @@ PRINCIPIOS UTILIZADOS:
 	*KISS*: Este principio establece que, como su acronimo dice; mantenlo sencillo y estupido. La mayoria de los sistemas funcionan mejor si
 				  se mantienen simples que si se mantienen complejos. y la simplicidad es una gran caracteristica de la banda aleatoria 
 
+### MANUAL DE USUARIO ###
+
+El proyecto banda_flask es un proyecto manejado con el framework minimalista flask. Por consiguiente es necesario disponer de la python y su extencion pip (Flask) para su correcta ejecucion. Para el correcto funcionamiento del proyecto es necesaria la presencia de cada uno de los archivos aqui presentes.
