@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+    <html>
+       <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="Style.css">
+         <title>Banda</title>
+       </head>
+       <body  bgcolor="8C8E8C">
+          <center><h1>Disfrute La Banda Parranda!!</h1></center>
+           <center>        
+               <table bgcolor="white" border="5">
+               <tr>
+                   <h3>Numero de musicos: {{n}} </h3>
+               </tr>
+               <tr>
+                   <h3>INSTRUMENTOS DISPONBLES: </h3>
+               </tr>
+               {%for i in b%}
+               <tr>
+                   <td>  
+                       <p><img src={{i.imagen}} width="200" height="200" ></p>
+                   </td>
+                   <td>
+                    <p> {{i.nombre}} </p>
+               </td>      
+           </tr>        
+               {%endfor%}
+
+           </table>  </center>
+           <center>        
+               <table bgcolor="white" border="5">
+               <tr>
+                   <h3>AFINANDO INSTRUMENTOS: </h3>
+               </tr>
+               {%for i in b%}
+               <tr>
+                   <td>  
+                       <p><img src={{i.imagen}} width="200" height="200" ></p>
+                   </td>
+                   <td>
+                    <p>Afinando {{i.nombre}} </p>
+               </td>      
+           </tr>        
+               {%endfor%}
+
+           </table>  </center>
+           <center>        
+               <table bgcolor="white" border="5">
+               <tr>
+                   <h3>TOCANDO INSTRUMENTOS: </h3>
+               </tr>
+               {%for i in b%}
+               <tr>
+                   <td>  
+                       <p><img src={{i.imagen}} width="200" height="200" ></p>
+                   </td>
+                   <td>
+                    <p>Tocando {{i.nombre}} </p>
+               </td>      
+           </tr>        
+               {%endfor%}
+
+           </table>  </center>
+    </html>
